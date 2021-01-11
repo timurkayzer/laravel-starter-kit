@@ -16,3 +16,12 @@ use Illuminate\Http\Request;
 // Route::middleware('auth:api')->get('/article', function (Request $request) {
 //     return $request->user();
 // });
+
+Route::group(['namespace' => '\Modules\Article\Http\Controllers'],function (){
+    $module_name = 'posts';
+    $controller_name = 'ArticleApiController';
+
+    Route::get("$module_name/index", "$controller_name@index");
+});
+
+

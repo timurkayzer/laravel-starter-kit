@@ -5,6 +5,7 @@ namespace Modules\Article\Http\Controllers;
 use Illuminate\Contracts\Support\Renderable;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
+use Modules\Article\Entities\Post;
 
 class ArticleApiController extends Controller
 {
@@ -14,7 +15,9 @@ class ArticleApiController extends Controller
      */
     public function index()
     {
-        return view('article::index');
+        $posts = Post::latest()->with(['category', 'tags', 'comments'])->paginate();
+
+        return response()->json($posts);
     }
 
     /**

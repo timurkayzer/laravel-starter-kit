@@ -81,4 +81,36 @@ class PostsController extends Controller
             compact('module_title', 'module_name', 'module_icon', 'module_action', 'module_name_singular', "$module_name_singular", 'meta_page_type')
         );
     }
+
+    /**
+     * Display the specified resource.
+     *
+     * @param int $slug
+     *
+     * @return Response
+     */
+    public function showBySlug($slug)
+    {
+        $module_title = $this->module_title;
+        $module_name = $this->module_name;
+        $module_path = $this->module_path;
+        $module_icon = $this->module_icon;
+        $module_model = $this->module_model;
+        $module_name_singular = Str::singular($module_name);
+
+        $module_action = 'Show';
+
+        $meta_page_type = 'article';
+
+
+
+        $$module_name_singular = $module_model::find(1)->where('slug', '=', $slug)->first();
+
+        event(new PostViewed($$module_name_singular));
+
+        return view(
+            "article::frontend.$module_name.show",
+            compact('module_title', 'module_name', 'module_icon', 'module_action', 'module_name_singular', "$module_name_singular", 'meta_page_type')
+        );
+    }
 }

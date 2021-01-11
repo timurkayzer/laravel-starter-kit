@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d51d0d3a-6d4c-42d3-8681-8210f0533230" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/resources/views/backend/includes/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/includes/sidebar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Article/Http/Controllers/ArticleApiController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Article/Http/Controllers/ArticleApiController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Article/Http/Controllers/Frontend/PostsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Article/Http/Controllers/Frontend/PostsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Article/Routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Article/Routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Article/Routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Article/Routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -184,7 +188,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../telagraf-js-bot" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -207,6 +211,12 @@
       <workItem from="1610015999293" duration="2246000" />
       <workItem from="1610021685217" duration="2268000" />
       <workItem from="1610024512244" duration="93000" />
+      <workItem from="1610024635400" duration="59000" />
+      <workItem from="1610078951710" duration="478000" />
+      <workItem from="1610081326950" duration="4776000" />
+      <workItem from="1610338916877" duration="3055000" />
+      <workItem from="1610349350835" duration="1341000" />
+      <workItem from="1610364449188" duration="213000" />
     </task>
     <servers />
   </component>
@@ -214,9 +224,17 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="666" y="253" width="587" height="534" key="find.popup" timestamp="1610023479341">
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1610342000279">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="666" y="253" width="587" height="534" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1610023479341" />
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1610342000279" />
+    <state x="666" y="253" width="587" height="534" key="find.popup" timestamp="1610083267833">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="666" y="253" width="587" height="534" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1610083267833" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1610340877431">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1610340877431" />
   </component>
 </project>
